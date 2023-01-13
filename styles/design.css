@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+
+.header {
+    height: 800px;
+    width: 1340px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.header-div {
+    text-align: right;
+    color: white;
+    padding-right: 230px;
+    padding-top: 250px;
+    padding-bottom: 170px;
+}
+
+.header .header-title{
+    font-size: 65px;
+    padding-bottom: 25px;
+    padding-left: 700px;
+}
+.header .header-description{
+    padding-left: 700px;
+    padding-bottom: 35px;
+
+}
+.header .btn-primary{
+    color: #005fac;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+   border-radius: 5px;
+}
+/* writer--section--1 */
+.writer{
+    display: flex;
+    margin-top: 125px;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+.writer .writer-img{
+    padding-right: 110px;
+}
+.writer-div{
+   margin-top: 200px;
+}
+
+.writer-title{
+font-size: 40px;
+font-weight: 900;
+color: #151414;
+padding-bottom: 25px;
+}
+.writer .writer-description{
+    font-size: 15px;
+    color: #444343;
+    padding-bottom: 15px;
+}
+.writer .writer-u-list{
+    padding-left: 20px;
+    list-style-image:url('../images/icons/check.png');
+}
+.writer .writer-u-list .writer-list{
+    font-size: 15px;
+    color: #444343;
+    padding-bottom: 8px;
+}
+/* job-section */
+.job-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 50px;
+
+}
+.job-div{
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.job-div .job-icon{
+    padding-right: 40px;
+}
+.job-div .job-name{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+
+}
+.job-div .job-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+    text-align: center;
+}
+
